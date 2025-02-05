@@ -5,6 +5,5 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-//base url
-// export const baseUrl = "http://192.168.200.46:7004/api";
-export const baseUrl = "https://business.agronomics.pk/business/api";
+export const baseUrl = "http://192.168.100.177:7004/api";
+
